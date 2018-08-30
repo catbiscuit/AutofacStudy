@@ -41,9 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IStudentDAL.cs" />
+    <Compile Include="ITeacherDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Apps.Infrastructure\Apps.Infrastructure.csproj">
+      <Project>{6dde8833-3e28-4cff-a4e9-0b0b7e437cca}</Project>
+      <Name>Apps.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Apps.Model\Apps.Model.csproj">
       <Project>{8ee91ef1-cc42-4d06-85c9-5ed992c3cd7c}</Project>
       <Name>Apps.Model</Name>

@@ -40,12 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseObject\DALBase.cs" />
+    <Compile Include="BaseObject\DatabaseFactory.cs" />
+    <Compile Include="BaseObject\Disposable.cs" />
+    <Compile Include="BaseObject\UnitOfWork.cs" />
+    <Compile Include="IBaseInterface\IDALBase.cs" />
+    <Compile Include="IBaseInterface\IDatabaseFactory.cs" />
+    <Compile Include="IBaseInterface\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BaseObject\" />
-    <Folder Include="IBaseInterface\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Apps.Model\Apps.Model.csproj">
       <Project>{8ee91ef1-cc42-4d06-85c9-5ed992c3cd7c}</Project>
